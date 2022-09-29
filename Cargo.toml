@@ -41,6 +41,9 @@ version = "0.37.2"
 [dev-dependencies]
 log = "0.4"
 
+[build-dependencies]
+pkg-config = "0.3"
+
 [features]
 all = ["image", "vulkan", "log", "wayland", "raw-window-handle-v0-6"]
 default = ["glfw-sys", "raw-window-handle-v0-6"]
