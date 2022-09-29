@@ -38,7 +38,11 @@ version = "^0.4"
 [dev-dependencies]
 log = "0.4"
 
+[build-dependencies]
+pkg-config = "0.3"
+
 [features]
 all = ["image", "vulkan", "log"]
 default = ["glfw-sys"]
 vulkan = ["vk-sys"]
+
